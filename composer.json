@@ -1,0 +1,24 @@
+{
+    "name": "omnipost/youtube",
+    "type": "library",
+    "description": "Omnipost YouTube: the channel's videos through the Data API (a key), and Shorts uploaded through OAuth.",
+    "keywords": ["social", "youtube", "shorts", "omnipost"],
+    "license": "LGPL-3.0-or-later",
+    "authors": [{"name": "Marco Meyer", "email": "marco.meyer@glitchr.io"}],
+    "require": {
+        "php": ">=8.2",
+        "glitchr/omnipost": "^1.0@dev",
+        "symfony/http-client": "^6.4|^7.0|^8.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^11.0"
+    },
+    "autoload": {
+        "psr-4": {"Omnipost\\YouTube\\": ""},
+        "exclude-from-classmap": ["/Tests/"]
+    },
+    "autoload-dev": {
+        "psr-4": {"Omnipost\\YouTube\\Tests\\": "Tests/"}
+    },
+    "config": {"sort-packages": true}
+}
