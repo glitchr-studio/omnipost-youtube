@@ -75,4 +75,4 @@ the site's terms and privacy policy, a few weeks) lifts it.
   expensive call - about 100 units now, so some 100 uploads a day (check Google's quota calculator:
   it cost 1 600 until recently). More is asked for in the Cloud console.
 
-License: LGPL-3.0-or-later.
+License: MIT since 2026-10-09; earlier versions remain published under LGPL-3.0-or-later.

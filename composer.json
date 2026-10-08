@@ -3,7 +3,7 @@
     "type": "library",
     "description": "Omnipost YouTube: the channel's videos through the Data API (a key), and Shorts uploaded through OAuth.",
     "keywords": ["social", "youtube", "shorts", "omnipost"],
-    "license": "LGPL-3.0-or-later",
+    "license": "MIT",
     "authors": [{"name": "Marco Meyer", "email": "marco.meyer@glitchr.io"}],
     "require": {
         "php": ">=8.2",
